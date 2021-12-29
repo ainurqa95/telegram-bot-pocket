@@ -1,0 +1,15 @@
+db_file: "bot.db"
+
+bot_url: "https://t.me/save_articles_pocket_bot"
+
+messages:
+  response:
+    start: "Hi, we need your access of pocket account to be abble to save articles and links, click to the link bellow: \n%s "
+    unknown_command: "Uknown command."
+    link_saved: "Link was added succesfully!"
+  error:
+    default: "Something went wrong"
+    invalid_url:  "Invalid link"
+    unable_to_save: "Unable to save link to Pocket"
+    empty_request_token: "You have not started your app yet, please type /start"
+    empty_access_token: "You have not authorized your pocket app yet, please type /start and go by link"
