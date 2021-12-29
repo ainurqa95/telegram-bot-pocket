@@ -8,7 +8,7 @@ on:
       - main
 
 env:
-  REGISTRY: "registry.digitalocean.com/sandbox-registry"
+  REGISTRY: "registry.digitalocean.com/aahmetgaliev"
   IMAGE_NAME: "telegram-bot-pocket"
   CONTAINER_NAME: "telegram-bot-pocket"
 
