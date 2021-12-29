@@ -67,9 +67,6 @@ func unmarshal(cfg *Config) error {
 }
 
 func fromEnv(cfg *Config) error {
-	// os.Setenv("TOKEN", "5063570760:AAFXs5o_LcgcwaURg0ZbIVtAkeJboxeuaUo")
-	// os.Setenv("CONSUMER_KEY", "99907-059c27eeb9c6dbfd43d936f0")
-
 	if err := viper.BindEnv("token"); err != nil {
 		return err
 	}
