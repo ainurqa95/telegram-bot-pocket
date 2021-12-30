@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 
 	pocket "github.com/ainurqa95/pocket/v3"
@@ -34,7 +33,6 @@ func main() {
 
 	telegramBot := telegram.NewBot(bot, pocketClient, tokenRepository, config.BotURL, config.Messages)
 	telegramBot.Start()
-	fmt.Println(telegramBot)
 }
 
 func initBolt(config *config.Config) (*bolt.DB, error) {
